@@ -27,6 +27,7 @@ def main():
     option = input('Você deseja fazer uma nova consulta? (y/n) ')
     if option == 'y': main()
     else: exit()
+    #teste
         
 if __name__ == '__main__':
     main()
