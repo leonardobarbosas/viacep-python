@@ -7,6 +7,7 @@ def main():
         print('Quantidade de digitos inválidas')
         exit()
         
+        #teste commit adede
     request = requests.get('https://viacep.com.br/ws/{}/json/'.format(cepInput))
 
     addresData = request.json()
